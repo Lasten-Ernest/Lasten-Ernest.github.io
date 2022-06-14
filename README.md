@@ -15,7 +15,7 @@ It contains information about his projects, skills, experience and includes his 
 
 ## Getting Started
 
-## In order to have a copy of this project in your computer follow the steps:
+## In order to have a copy of this project in your computer follow these steps:
 ** Open your favourite git client
 ** clone this project into your computer using this link https://github.com/Lasten-Ernest/Lasten-Ernest-Portfolio-Website.git 
 ** open it with your prefered browser.
@@ -23,7 +23,7 @@ It contains information about his projects, skills, experience and includes his 
 
 ## In order to access this website on line:
 ** copy the link below and paste it into your browser's address bar.
-https://lasten-ernest.github.io/
+    https://lasten-ernest.github.io/
 
 
 ## Author
@@ -32,7 +32,8 @@ https://lasten-ernest.github.io/
 
 - GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
 - Twitter: [@ErnestLasten](https://twitter.com/ErnestLasten)
-- LinkedIn: [ernestlasten](https://linkedin.com/in/ernestlasten)
+- LinkedIn: [ernestlasten](https://mw.linkedin.com/in/ernest-lasten-613990197)
+
 
 
 ## 🤝 Contributing
