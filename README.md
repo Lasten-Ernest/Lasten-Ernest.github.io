@@ -22,8 +22,9 @@ It contains information about his projects, skills, experience and includes his 
 
 
 ## In order to access this website on line:
-** copy the link below and paste it into your browser's address bar.
+** click on the link below or copy it and paste it into your recommended browser's address bar.
     https://lasten-ernest.github.io/
+    
 
 
 ## Author
