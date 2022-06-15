@@ -21,11 +21,12 @@ body {
 #header {
   display: flex;
   align-items: center;
-  background: white;
+  background-color: white;
   padding: 24px 36px 24px 24px;
 }
 
 .logo {
+  color: #00052e;
   font-size: 18px;
   font-weight: 700;
   margin-right: 223px;
@@ -47,9 +48,7 @@ nav > ul {
 }
 
 #headline-container {
-  background:
-    url(assets/header-shapes\ mobile.svg) no-repeat,
-    white;
+  background: url(assets/header-shapes\ mobile.svg) no-repeat, white;
   padding-top: 114px;
   padding-bottom: 136px;
   padding-left: 24px;
@@ -76,8 +75,9 @@ nav > ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
   margin-bottom: 12px;
+  color: #142cff;
+  background-color: #fff;
 }
 
 .social-icons {
@@ -138,7 +138,17 @@ nav > ul {
 }
 
 .gray {
-  color: #7a869a;
+  color: #373e49;
+  background-color: #fff;
+}
+
+.job-title {
+  color: #303640;
+}
+
+.project-year {
+  color: #272c34;
+  background-color: #fff;
 }
 
 .project-text {
@@ -156,7 +166,6 @@ nav > ul {
 
 .language {
   background-color: #ebebff;
-  color: #6070ff;
   margin-right: 8px;
   font-weight: 500;
   font-size: 12px;
@@ -164,6 +173,7 @@ nav > ul {
   padding: 4px 12px;
   border-radius: 8px;
   letter-spacing: 0.03em;
+  color: #0016e0;
 }
 
 .project-button {
