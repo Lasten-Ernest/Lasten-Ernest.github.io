@@ -19,18 +19,21 @@ body {
 }
 
 #header {
+ 
   display: flex;
   align-items: center;
-  background: white;
+ background-color: white;
   padding: 24px 36px 24px 24px;
 }
 
 .logo {
+  color: #00052E;
   font-size: 18px;
   font-weight: 700;
   margin-right: 223px;
   white-space: nowrap;
   cursor: pointer;
+  background: #C7C7C7;
 }
 
 #menu {
@@ -78,6 +81,8 @@ nav > ul {
   line-height: 24px;
   color: #7f8cff;
   margin-bottom: 12px;
+  color: #142CFF;
+  background-color: #FFFFFF;
 }
 
 .social-icons {
@@ -138,7 +143,17 @@ nav > ul {
 }
 
 .gray {
-  color: #7a869a;
+  color: #373E49;
+  background-color: #FFFFFF;
+}
+
+.job-title {
+  color: #303640;
+  
+}
+.project-year {
+  color: #272C34;
+  background-color: #FFFFFF;
 }
 
 .project-text {
@@ -164,6 +179,17 @@ nav > ul {
   padding: 4px 12px;
   border-radius: 8px;
   letter-spacing: 0.03em;
+  color: #0016e0;
+}
+
+.language2 {
+  color: #0018f0;
+  background-color: #ebebff;
+}
+
+.language3 {
+  color: #6070ff;
+  background-color: #ebebff;
 }
 
 .project-button {
