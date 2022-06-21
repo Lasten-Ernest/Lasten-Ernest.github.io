@@ -1,33 +1,40 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# ebuka-portfolio
+# Portfolio-setup-and-mobile-version-skeleton
 
-# Project Name : MOBILE PORTFOLIO WEBSITE
+> This is a Mobile version of my Portfolio Website.
 
-> Description the project.
-# Thia is a mobile portfolio website for Ernest Lasten, a web developer.
-It contains information about his projects, skills, experience and includes his contact details. 
+## Below is a GIF showing my Portfolio
+![gif](./project.png)
 
+This website is a setup and mobile version skeleton of my portfolio.
+
+## Setup
+
+### Clone this repository
+
+```bash
+$ git clone https://github.com/EbukaNweje/ebuka-portfolio.git
+$ cd Portfolio
+```
+### Run the live server or open index.html with your browser
+
+## Live Demo
+
+You can see [my page live here](https://ebukanweje.github.io/ebuka-portfolio/)
 
 ## Built With
 
-- HTML AND CSS
-- JAVASCRIPT
-
-
-
-## Getting Started
-
-** To use this project, just clone it into your computer
-** open it with your presefered browser.
-
+- HTML
+- CSS
+- VSCode
 
 ## Author
 
-👤 **Ernest Lasten**
+👤 **Ebuka Nweje Favour**
 
-- GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
-- Twitter: [@ErnestLasten](https://twitter.com/ErnestLasten)
-- LinkedIn: [ernestlasten](https://linkedin.com/in/ernestlasten)
-
+- GitHub: [@githubhandle](https://github.com/EbukaNweje)
+- Twitter: [@twitterhandle](https://twitter.com/NwejeEbuka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ebuka-nweje-b5993317a/)
 
 ## 🤝 Contributing
 
@@ -37,7 +44,6 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.

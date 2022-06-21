@@ -1,4 +1,22 @@
 {
+  "name": "ebuka-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbukaNweje/ebuka-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbukaNweje/ebuka-portfolio/issues"
+  },
+  "homepage": "https://github.com/EbukaNweje/ebuka-portfolio#readme",
   "devDependencies": {
     "hint": "^6.2.0",
     "stylelint": "^13.13.1",
