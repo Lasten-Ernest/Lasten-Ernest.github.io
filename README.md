@@ -1,40 +1,41 @@
-# ebuka-portfolio
-# Portfolio-setup-and-mobile-version-skeleton
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is a Mobile version of my Portfolio Website.
+# Project Name : ERNEST PORTFOLIO WEBSITE
 
-## Below is a GIF showing my Portfolio
-![gif](./project.png)
+> Description the project.
+# Thia is a mobile portfolio website for Ernest Lasten, a web developer.
+It contains information about his projects, skills, experience and includes his contact details. 
 
-This website is a setup and mobile version skeleton of my portfolio.
-
-## Setup
-
-### Clone this repository
-
-```bash
-$ git clone https://github.com/EbukaNweje/ebuka-portfolio.git
-$ cd Portfolio
-```
-### Run the live server or open index.html with your browser
-
-## Live Demo
-
-You can see [my page live here](https://ebukanweje.github.io/ebuka-portfolio/)
 
 ## Built With
 
-- HTML
-- CSS
-- VSCode
+- HTML AND CSS
+- JAVASCRIPT
+
+
+## Getting Started
+
+## In order to have a copy of this project in your computer follow these steps:
+** Open your favourite git client
+** clone this project into your computer using this link https://github.com/Lasten-Ernest/Lasten-Ernest-Portfolio-Website.git 
+** open it with your prefered browser.
+
+
+## In order to access this website on line:
+** click on the link below or copy it and paste it into your recommended browser's address bar.
+    https://lasten-ernest.github.io/
+    
+
 
 ## Author
 
-👤 **Ebuka Nweje Favour**
+👤 **Ernest Lasten**
 
-- GitHub: [@githubhandle](https://github.com/EbukaNweje)
-- Twitter: [@twitterhandle](https://twitter.com/NwejeEbuka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ebuka-nweje-b5993317a/)
+- GitHub: [@Lasten-Ernest](https://github.com/Lasten-Ernest)
+- Twitter: [@ErnestLasten](https://twitter.com/ErnestLasten)
+- LinkedIn: [ernestlasten](https://mw.linkedin.com/in/ernest-lasten-613990197)
+
+
 
 ## 🤝 Contributing
 
@@ -44,6 +45,7 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.

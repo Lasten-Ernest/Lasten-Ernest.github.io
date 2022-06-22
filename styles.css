@@ -329,8 +329,6 @@ button {
   border-radius: 8px;
 }
 
-/* Second part */
-
 .GridCard2 {
   display: flex;
   align-items: center;
@@ -417,8 +415,6 @@ button {
   max-width: 45%;
   text-align: center;
 }
-
-/* This is the third part */
 
 .GridCard3 {
   display: grid;
@@ -552,8 +548,6 @@ button.btn {
   background-color: blue;
   color: white;
 }
-
-/* part four */
 
 .second-section51 {
   display: block;
@@ -1176,8 +1170,6 @@ li.tag {
     width: 36%;
   }
 
-  /* second part */
-
   .second-section2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -1264,8 +1256,6 @@ li.tag {
   .click2 {
     width: 40%;
   }
-
-  /* Third part */
 
   .second-section3 {
     display: grid;
@@ -1422,8 +1412,6 @@ li.tag {
     width: 30%;
   }
 
-  /* About me */
-
   .last {
     display: grid;
     grid-template-columns: auto auto;
@@ -1467,8 +1455,6 @@ li.tag {
   .footer {
     background-image: url("./images/about-myself-\ background-shape-\ desktop.svg");
   }
-
-  /* form */
 
   .form {
     background-image: none;
@@ -1593,4 +1579,35 @@ li.tag {
     display: flex;
     list-style-type: none;
   }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+      width: initial;
+      
+    } 
+    
+    25% {
+      width: 25%;
+    }
+  
+    50% {
+      width: 50%;
+    }
+  
+    75% {
+      width: 25%;
+    }
+  
+    to {
+      transform: rotate(360deg);
+      width: intial;
+    }
+  }
+  
+  .erne-logo {
+    animation: spin 3s;
+    cursor: pointer;
+  }
+  
 }
