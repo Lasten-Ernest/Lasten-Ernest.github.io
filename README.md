@@ -3,13 +3,14 @@
 # Project Name : ERNEST PORTFOLIO WEBSITE
 
 > Description the project.
-# Thia is a mobile portfolio website for Ernest Lasten, a web developer.
+# This is a mobile portfolio website for Ernest Lasten, a web developer.
 It contains information about his projects, skills, experience and includes his contact details. 
 
 
 ## Built With
 
-- HTML AND CSS
+- HTML
+- CSS
 - JAVASCRIPT
 
 
