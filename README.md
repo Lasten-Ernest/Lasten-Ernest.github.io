@@ -8,8 +8,7 @@ It contains information about his projects, skills, experience and includes his 
 
 
 ## Built With
-
-- HTML 
+- HTML
 - CSS
 - JAVASCRIPT
 
