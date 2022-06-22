@@ -1,262 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="/javaScript/index.js"></script>
-  <title>ERNEST Mobile Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Felix Ouma is an experienced software developer" />
+    <title>Ebuka .N Portfolio</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
 </head>
-
 <body>
-  <header id="header">
-    <a class="blue logo">My Logo</a>
-    <nav id="navigation-menu">
-      <img id="menu" class="humberger-menu" src="assets/Union.png" alt="This is the menu icon">
-      <img class="exit-btn" width="20" src="/assets/Exit-button.svg" alt="hamburger cancel button">
-      <ul>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+        <header class="flex-container">
+          <div class="menu-wrapper">
+            <div class="logo">
+                <a href="index.html">Ebuka .N</a>
+            </div>
 
-  <section>
-    <section id="headline-section">
-      <div id="headline-container">
-        <h1 class="intro">
-          I'm Ernest Lasten <br> Glad to see <br> you!
-        </h1>
-        <p class="description">
-          I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you like 
-          what you see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-        <p class="connect">LET'S CONNECT</p>
-        <ul class="social-icons"> 
-          <li>
-            <a class="social-media-icon" href="#">
-              <img src="assets/social-icons/Vector.svg" alt="This is twitter link">
-            </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Linkedinicon.svg" alt="This is linked-in link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-              <img src="assets/social-icons/Vector(2).svg" alt="This is medium link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Vector(1).svg" alt="This is github link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#"></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="work-section">
-      <div class="project-section project1">
-        <img class="project-img" src="assets/SnapshootPortfolio(2).jpg" alt="This is an image for the first project">
-        <img class="project-img-desktop img1" src="assets/desktop-images/img1.png" alt="This is an image for the first project">
-        <div class="project-info">
-          <p class="project-title">Tonic</p>
-          <div class="project-info-top">
-            <p class="job-place">CANOPY</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="job-title">Back End Dev</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="project-year gray">2015</p>
+            <nav class="menu">
+                <div class="menu-icon toggle-menu">
+                    <img src="assets/images/Union.svg" alt="Hambuger Mobile Menu" />
+                </div>
+                <ul class="">
+                    <li class="flex-row">
+                        <span class="close-icon toggle-menu">
+                            <img src="assets/images/close.svg" alt="Close menu icon" />
+                        </span>
+                    </li>
+                    <li><a class="toggle-menu" href="#portfolio">Portfolio</a></li>
+                    <li><a class="toggle-menu" href="#about">About</a></li>
+                    <li><a class="toggle-menu" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
           </div>
-          <p class="project-text">
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="project-languages">
-            <li class="language">html</li>
-            <li class="language">css</li>
-            <li class="language">javaScript</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
+        </header>
+        <section class="intro">
+            <div class="intro-section-bg">
+                <div class="bg-item-1"></div>
+                <div class="bg-item-2"></div>
+                <div class="bg-item-3"></div>
+                <div class="bg-item-4"></div>
+                <div class="bg-item-5"></div>
+            </div>
+            <div class="intro-content">
+                <h1 class="title">I’m Ebuka <br /> Glad to see you!</h1>
+                <p>
+                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <p class="purple-text">LET'S CONNECT</p>
+
+                <div class="social-icons">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/Felix_Atonoh">
+                                <img src="assets/images/twitter.svg" alt="Twitter Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/felix-ouma-639766b0/">
+                                <img src="assets/images/linkedinicon.svg" alt="Linked In Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/images/Vector.svg" alt="Medium Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Felix45">
+                                <img src="assets/images/github.svg" alt="Github Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/images/Vector2.svg" alt="Angellist Logo" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="intro-section-footer-bg">
+                <div class="bg-footer-item-1"></div>
+                <div class="bg-footer-item-2"></div>
+                <div class="bg-footer-item-3"></div>
+                <div class="bg-footer-item-4"></div>
+                <div class="bg-footer-item-5"></div>
+            </div>
+        </section>
+
+        <div class="grid-container project-cards page-section" id="portfolio">
+
         </div>
-      </div>
-      <div class="project-section project2">
-        <img class="project-img" src="assets/SnapshootPortfolio(1).jpg" alt="This is an image for the Art printing project">
-        <img class="project-img-desktop img2" src="assets/desktop-images/img2.png" alt="This is an image for Art printing project">
-        <div class="project-info">
-          <p class="project-title">Multi-Post Stories</p>
-          <div class="project-info-top">
-            <p class="job-place">CANOPY</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="job-title gray">Back End Dev</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="project-year gray">2015</p>
-          </div>
-          <p class="project-text">
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="project-languages">
-            <li class="language">html</li>
-            <li class="language">css</li>
-            <li class="language">javaScript</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
-      </div>
-      <div class="project-section project3">
-        <img class="project-img" src="assets/SnapshootPortfolio.jpg" alt="This is an image of my third project">
-        <img class="project-img-desktop img3" src="assets/desktop-images/img3.png" alt="This is an image of my third project">
-        <div class="project-info">
-          <p class="project-title">Tonic</p>
-          <div class="project-info-top">
-            <p class="job-place">CANOPY</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is small circle">
-            <p class="job-title gray">Back End Dev</p>
-            <img class="circle" src="assets/Counter.svg" alt="This is small circle">
-            <p class="project-year gray">2015</p>
-          </div>
-          <p class="project-text">
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="project-languages">
-            <li class="language">html</li>
-            <li class="language">css</li>
-            <li class="language">javaScript</li>
-          </ul>
-          <button type="button" class="project-button">See Project</button>
-        </div>
-      </div>
-      <div class="project-section project4">
-        <img class="project-img" src="assets/SnapshootPortfolio(3).jpg" alt="This is an image of my fourth project">
-        <img class="project-img-desktop img4" src="assets/desktop-images/img4.png" alt="This is an image of my fourth project">
-  
-        <div class="project-info">
-          <p class="project-title">
-            Multi-Post Stories
-          </p>
-          <div class="project-info-top">
-            <p class="job-place">
-              CANOPY
-            </p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="job-title gray">
-              Back End Dev
-            </p>
-            <img class="circle" src="assets/Counter.svg" alt="This is circle image">
-            <p class="project-year gray">
-              2015
-            </p>
-          </div>
-          <p class="project-text">
-            A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="project-languages">
-            <li class="language">html</li>
-            <li class="language">css</li>
-            <li class="language">javaScript</li>
-          </ul>
-          <button type="button" class="project-button">
-            See Project
-          </button>
-        </div>
-      </div>
-    </section>
 
-    <section id="about-me-section">
-      <div id="my-info">
-        <h1 class="intro intro-about-me">
-          About <br> myself
-        </h1>
-        <p class="description description-about-me">
-          Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-        </p>
-        <p class="connect">
-          LET'S CONNECT
-        </p>
-        <ul class="social-icons"> 
-          <li>
-              <a class="social-media-icon" href="#">
-               <img src="assets/social-icons/Vector.svg" alt="This is twitter link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Linkedinicon.svg" alt="This is linked-in link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Vector(2).svg" alt="This is a link to medium">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Vector(1).svg" alt="This is github link">
-              </a>
-          </li>
-          <li>
-              <a class="social-media-icon" href="#">
-                <img src="assets/social-icons/Vector(3).svg" alt="This is anglellist link">
-              </a>
-          </li>
-        </ul>
-        <button type="button" class="project-button resume-button">Get my resume</button>
-      </div>
-      <ul id="my-knowledge">
-        <li class="resume-list resume-languages">
-          <div class="knowledge-type-container">
-            <p>Languages</p>
-             <img src="assets/icon-down.png" alt="This is a down arrow icon">
-          </div>
-          <ul>
-            <li class="resume-list-item"><img src="assets/Ellipse1.png" alt="javascript icon">JavaScript</li>
-            <li class="resume-list-item"><img src="assets/Ellipse1(1).png" alt="html5 icon">HTML</li>
-            <li class="resume-list-item"><img src="assets/Ellipse1(2).png" alt="css icon">CSS</li>
-          </ul>
-        </li>
-        <li class="resume-list resume-frameworks">
-          <div class="knowledge-type-container">
-            <p>Frameworks</p>
-            <img src="assets/icon-right.png" alt="This is right arrow icon"></div>
-        </li>
-        <li class="resume-list resume-skills">
-          <div class="knowledge-type-container">
-            <p>Skills</p>
-            <img src="assets/icon-right.png" alt="This is right arrow icon">
-          </div>
-        </li>
-      </ul>
-    </section>
+        <section class="grid-container about-me page-section" id="about">
+            <div class="grid-item">
+                <h2 class="title">About <br /> Myself</h2>
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
 
-   </section>
+                <p class="purple-text">LET'S CONNECT</p>
 
-  <footer>
-    <form action="https://formspree.io/f/xvolldvz" method="post">
-      <h2>Contact me</h2>
-      <p>
-        If you have an application you are interested in developing, 
-        a feature that you need built or a project that needs coding. 
-        I’d love to help with it 
-      </p> 
-      <label for="name"></label>
-      <input name="name" type="text" maxlength="30" placeholder="name" required>
-      <label for="email"></label>
-      <input name="email" type="email" placeholder="email" required>
-      <label for="message"></label>
-      <textarea name="message" id="message" maxlength="500" placeholder="Write your message here" required></textarea>
-      <button type="submit" class="project-button form-button">Get In Touch</button>
-      <img class="footer-shape" src="./assets/Shape.png" alt="This is a a cross bar shape">
-    </form>
-  </footer>
+                <div class="social-icons">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Felix45">
+                                <img src="assets/images/github.svg" alt="Github Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/felix-ouma-639766b0/">
+                                <img src="assets/images/linkedinicon.svg" alt="Linked In Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/images/Vector2.svg" alt="Angellist Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Felix_Atonoh">
+                                <img src="assets/images/twitter.svg" alt="Twitter Logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="assets/images/Vector.svg" alt="Medium Logo" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="" class="btn mt-1"><span>Get my resume</span></a>
+            </div>
+            <div class="skills">
+                <ul class="menu">
+                    <li class="open"><a href="#">Languages</a>
+                        <ul class="submenu">
+                            <li><a href=""><img src="assets/images/js.svg" alt="JavaScript logo" /> <span>JavaScript</span></a></li>
+                            <li><a href=""><img src="assets/images/html5.svg" alt="HTML5 logo" /> <span>HTML</span></a></li>
+                            <li><a href=""><img src="assets/images/css.svg" alt="Cascading Stylesheets logo" /> <span>CSS</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="closed"><a href="#">Frameworks</a></li>
+                    <li class="closed"><a href="#">Skills</a></li>
+                </ul>
+            </div>
+        </section>
+
+      <footer class="flex-container contact-me page-section" id="contact">
+        <div class="form-header-bg">
+            <div class="left-background-sprite"></div>
+            <div class="center-background-sprite"></div>
+         </div>
+       <div class="flex-item-row contact">
+         <h2 class="flex-item-row contact-title text-center">Contact me</h2>
+         <p class="flex-item-row contact-description text-center">
+             If you have an application you are interested in developing,
+             a feature that you need built or a project that needs coding.
+             I’d love to help with it
+         </p>
+
+         <form method="post" action="https://formspree.io/f/mvolvape">
+             <div class="flex-item-row">
+                <label for="username">
+                    <input type="text" name="username" id="username" value="" placeholder="Name" maxlength="30" class="userdata" required/>
+                </label>
+             </div>
+
+             <div class="flex-item-row">
+                <label for="emailaddress">
+                    <input type="email" name="emailaddress" id="emailaddress" value="" placeholder="example@gmail.com" class="userdata" required/>
+                </label>
+             </div>
+
+             <div class="flex-item-row">
+                 <label for="message">
+                     <textarea name="message" id="message" maxlength="500" placeholder="Write your message here ..." class="userdata" required></textarea>
+                 </label>
+             </div>
+             <div class="form-footer-bg">
+                <div></div>
+                <button class="btn btn-up" type="submit"><span>Get In Touch</span></button>
+             </div>
+             <div class="circle-bg-item"></div>
+             <div class="poly-bg-item"></div>
+             <div class="form-error"></div>
+         </form>
+        </div>
+        <div class="flex-item-row status-bar">
+        </div>
+    </footer>
+ </main>
+
+ <div class="overlay">
+     
+ </div>
+
+    <!-- JavaScript-->
+     <script src="assets/js/script.js"></script>
+     <script src="assets/js/popup.js"></script>
+     <script src="assets/js/validate.js"></script>
+    <!-- End JavaScript-->
 </body>
 </html>
