@@ -295,7 +295,7 @@ p.second-paragraph {
 }
 
 .works {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   margin-top: 16px;
 }
@@ -309,7 +309,7 @@ p.second-paragraph {
   border: 1px solid #6070ff;
   color: #fff;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -383,7 +383,7 @@ button {
 }
 
 .to-do-para2 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -411,7 +411,7 @@ button {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -474,7 +474,7 @@ h2.mob-face {
 }
 
 .to-do-para3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -541,7 +541,7 @@ img.cursor1 {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -581,7 +581,7 @@ button.btn {
   font-weight: 700;
   line-height: 44px;
   margin-top: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #172b4d;
 }
 
@@ -597,7 +597,7 @@ button.btn {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
   max-width: 45%;
@@ -635,7 +635,7 @@ button:active {
 .last h2 {
   margin: 114px 24px 0;
   height: 101px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -718,9 +718,7 @@ h4 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image:
-    url("./images/Contact-me.jpg"),
-    url("./images/contact-form-shapes-mobile@2x.png");
+  background-image: url("./images/Contact-me.jpg"), url("./images/contact-form-shapes-mobile@2x.png");
   height: 779px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -735,7 +733,7 @@ h4 {
 }
 
 .GridWrapperlst p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -762,7 +760,7 @@ h4 {
 input,
 textarea {
   font-size: 17px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   width: 322px;
   height: 48px;
   border-radius: 8px;
@@ -786,7 +784,7 @@ textarea {
   border: 1px solid #6070ff;
   color: #fff;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin: 18px 0 35px 24px;
   max-width: 45%;
@@ -802,7 +800,7 @@ textarea {
   border: 1px solid #6070ff;
   color: white;
   border-radius: 5px;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 20px;
   margin-top: 18px;
 }
@@ -934,13 +932,8 @@ li.tag {
 }
 
 @keyframes ekene {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .Modalbuttons {
@@ -987,7 +980,7 @@ li.tag {
   .nav-list {
     display: flex;
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1030,7 +1023,7 @@ li.tag {
 
   .nav-list a {
     color: #344563;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 15px;
     text-decoration: none;
@@ -1070,7 +1063,7 @@ li.tag {
 
   .first-section {
     width: 100%;
-    background-image: url("./images/Header-bg.svg");
+    background-image: url('./images/Header-bg.svg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 850px;
@@ -1086,7 +1079,7 @@ li.tag {
     display: flex;
     letter-spacing: 0.37px;
     color: #091e42;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 60px;
   }
 
