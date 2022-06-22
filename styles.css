@@ -698,8 +698,6 @@ h4 {
   border-bottom: 1px solid #e0d8d8;
 }
 
-/* form-section */
-
 .GridCardlst {
   display: flex;
   flex-direction: column;
@@ -825,8 +823,6 @@ p.err {
 p.err.show {
   display: block;
 }
-
-/* Modal part */
 
 .vanish {
   display: none;
@@ -1584,7 +1580,6 @@ li.tag {
     from {
       transform: rotate(0deg);
       width: initial;
-      
     } 
     
     25% {
@@ -1609,5 +1604,4 @@ li.tag {
     animation: spin 3s;
     cursor: pointer;
   }
-  
 }
