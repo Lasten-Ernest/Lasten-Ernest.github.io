@@ -1575,33 +1575,4 @@ li.tag {
     display: flex;
     list-style-type: none;
   }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0deg);
-      width: initial;
-    } 
-    
-    25% {
-      width: 25%;
-    }
-  
-    50% {
-      width: 50%;
-    }
-  
-    75% {
-      width: 25%;
-    }
-  
-    to {
-      transform: rotate(360deg);
-      width: intial;
-    }
-  }
-  
-  .erne-logo {
-    animation: spin 3s;
-    cursor: pointer;
-  }
 }
